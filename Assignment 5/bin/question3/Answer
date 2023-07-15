@@ -1,0 +1,12 @@
+
+In Java, there are two types of exceptions: **checked** and **unchecked**. 
+Checked exceptions are exceptions that must be handled by the programmer. 
+If a checked exception is not handled, the program will not compile. 
+Unchecked exceptions are exceptions that do not have to be handled by the programmer. 
+If an unchecked exception is not handled, the program will continue to execute, 
+but the results may be unpredictable.
+
+In general, checked exceptions should be handled by the programmer, 
+while unchecked exceptions should not be handled. This is because checked exceptions
+ are typically caused by problems with the code that the programmer wrote, while 
+ unchecked exceptions are typically caused by problems with the JVM or the underlying operating system.

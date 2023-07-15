@@ -1,0 +1,10 @@
+An interface in Java is a reference type that is used to define a set of methods that must be implemented 
+by a class. An interface cannot be instantiated, but it can be used to create references to objects that 
+implement the interface.
+
+Interfaces are used to achieve abstraction in Java. Abstraction is the process of hiding the implementation
+ details of an object from the user. This allows the user to focus on the behavior of the object, without 
+ having to worry about how the object is implemented.
+
+Interfaces are also used to achieve polymorphism in Java. Polymorphism is the ability of an object to take
+ on different forms. This can be achieved through method overloading or method overriding.

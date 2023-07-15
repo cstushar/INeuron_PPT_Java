@@ -1,0 +1,26 @@
+
+A functional interface in Java 8 is an interface that has only one abstract method. 
+Functional interfaces are used to implement lambda expressions.
+
+Here is an example of a functional interface:
+
+Java
+interface Runnable {
+  void run();
+}
+
+
+The Runnable interface has only one abstract method, run(). 
+This method takes no input and returns no output.
+
+Lambda expressions can be used to implement the behavior of the Runnable interface. 
+For example, the following lambda expression can be used to implement the behavior of the Runnable interface:
+
+Java
+() -> System.out.println("Hello, world!");
+
+
+This lambda expression takes no input and prints the string "Hello, world!" to the console. 
+The run() method of the Runnable interface takes no input and returns no output. 
+The lambda expression above matches the signature of the run() method, so it can be used 
+to implement the behavior of the Runnable interface.

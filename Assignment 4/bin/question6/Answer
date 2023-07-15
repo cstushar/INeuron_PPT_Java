@@ -1,0 +1,17 @@
+
+A lambda expression is an anonymous function that can be used to implement the behavior of an interface.
+
+Here are some of the benefits of using lambda expressions in Java:
+
+* **Conciseness:** Lambda expressions are a concise way to write code that would otherwise be written
+ using anonymous inner classes.
+* **Readability:** Lambda expressions can make code more readable by making the code easier to understand.
+* **Maintainability:** Lambda expressions can make code more maintainable by making the code easier to change.
+* **Performance:** Lambda expressions can improve the performance of code by reducing the amount of 
+code that needs to be executed.
+
+However, there are also some limitations to lambda expressions:
+
+- Only interfaces that have only one abstract method can be implemented using lambda expressions.
+- Lambda expressions can be difficult to understand for beginners.
+- Lambda expressions can be difficult to debug for beginners.

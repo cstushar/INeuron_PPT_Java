@@ -1,0 +1,18 @@
+
+Multithreading is a programming technique that allows multiple tasks to run concurrently within the same program.
+
+In Java, multithreading is implemented using **threads**. A thread is a lightweight process that 
+can run concurrently with other threads. Each thread has its own stack, registers, and program counter.
+
+To create a thread in Java, you can use the `Thread` class. The `Thread` class provides a number
+of methods for controlling the execution of a thread, such as `start()`, `sleep()`, and `join()`.
+
+Here are some of the advantages of multithreading in Java:
+
+* **Improved performance:** Multithreading can improve the performance of a program by allowing 
+it to take advantage of multiple CPU cores.
+
+* **Increased responsiveness:** Multithreading can improve the responsiveness of a program by 
+allowing it to handle multiple requests concurrently.
+
+* **Reduced blocking:** Multithreading can reduce blocking by allowing multiple tasks to run concurrently.

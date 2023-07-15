@@ -1,0 +1,14 @@
+
+Exception handling is a mechanism that allows a program to continue running even when an error occurs.
+When an error occurs, the program will stop executing the current line of code and will jump to a 
+special section of code called the exception handler. The exception handler will then attempt to 
+handle the exception, which may involve printing an error message, logging the exception, or terminating
+the program.
+
+There are two main types of exception handling in Java:
+
+Try-catch: The try-catch block is the most common way to handle exceptions in Java. The try-catch 
+block consists of a try block and a catch block. The try block contains the code that is potentially 
+problematic. The catch block contains the code that will be executed if an exception occurs in the try block.
+Throw: The throw keyword is used to throw an exception. The throw keyword can be used to throw a 
+checked exception or an unchecked exception.

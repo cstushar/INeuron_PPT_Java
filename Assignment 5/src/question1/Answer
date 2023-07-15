@@ -1,0 +1,16 @@
+
+An exception in Java is an event that occurs during the execution of a program that disrupts the normal
+flow of the program. Exceptions can be caused by a variety of factors, such as invalid input, division 
+by zero, or an attempt to access a nonexistent object.
+
+When an exception occurs, the program will stop executing the current line of code and will jump to a
+ special section of code called the exception handler. The exception handler will then attempt to handle
+  the exception, which may involve printing an error message, logging the exception, or terminating the program.
+
+There are two main types of exceptions in Java:
+
+Checked exceptions: Checked exceptions are exceptions that must be handled by the programmer. 
+If a checked exception is not handled, the program will not compile.
+Unchecked exceptions: Unchecked exceptions are exceptions that do not have to be handled by the programmer.
+If an unchecked exception is not handled, the program will continue to execute, but the results may be 
+unpredictable.

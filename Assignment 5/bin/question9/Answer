@@ -1,0 +1,11 @@
+
+There are two ways of implementing threads in Java:
+
+Extending the Thread class: This is the most common way to implement threads in Java. 
+To extend the Thread class, you need to create a subclass of the Thread class and override 
+the run() method. The run() method is the method that will be executed when the thread starts running.
+
+Implementing the Runnable interface: This is another way to implement threads in Java. 
+To implement the Runnable interface, you need to create a class that implements the Runnable
+ interface and override the run() method. The run() method is the method that will be executed
+ when the thread starts running.

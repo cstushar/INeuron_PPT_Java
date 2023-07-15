@@ -1,0 +1,27 @@
+public class Car {
+  private String make;
+  private String model;
+  private int year;
+
+  public Car(String make, String model, int year) {
+    this.make = make;
+    this.model = model;
+    this.year = year;
+  }
+
+  public String getMake() {
+    return make;
+  }
+
+  public String getModel() {
+    return model;
+  }
+
+  public int getYear() {
+    return year;
+  }
+}
+
+The Car class is an example of abstraction because it hides the implementation details of the car from the user. 
+The user does not need to know how the car is implemented. 
+The user only needs to know about the behavior of the car, which is represented by the public methods.

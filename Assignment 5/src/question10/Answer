@@ -1,0 +1,11 @@
+Garbage collection is a process by which the Java Virtual Machine (JVM) automatically 
+deallocates memory that is no longer being used by an application. This is done to free
+ up memory and improve the performance of the application.
+
+In Java, memory is allocated to objects when they are created. When an object is no 
+longer needed, it is said to be garbage. The garbage collector is responsible for finding
+ and deallocating garbage.
+
+The garbage collector is a built-in feature of the JVM. It runs in the background and 
+does not require any user intervention. The garbage collector is very efficient and can 
+typically reclaim memory without impacting the performance of the application.

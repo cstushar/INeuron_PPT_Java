@@ -1,0 +1,31 @@
+
+Here is a program to create and call a custom exception:
+
+```java
+class MyException extends Exception {
+
+  public MyException(String message) {
+    super(message);
+  }
+}
+
+public class CustomExceptionDemo {
+
+  public static void main(String[] args) {
+    try {
+      throw new MyException("This is a custom exception");
+    } catch (MyException e) {
+      System.out.println(e.getMessage());
+    }
+  }
+}
+```
+
+This code creates a custom exception called `MyException`. 
+The `MyException` class extends the `Exception` class.
+ The `MyException` class has a constructor that takes a string message as input.
+
+The `main()` method in the `CustomExceptionDemo` class tries to throw a `MyException` exception. 
+If the `MyException` exception is thrown, the `main()` method catches the exception and prints 
+the message of the exception to the console.
+

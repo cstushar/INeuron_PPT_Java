@@ -1,0 +1,28 @@
+
+Interfaces in Java are used to achieve abstraction and polymorphism. Abstraction is the process of hiding 
+the implementation details of an object from the user. This allows the user to focus on the behavior of the
+ object, without having to worry about how the object is implemented. Polymorphism is the ability of an 
+ object to take on different forms. This can be achieved through method overloading or method overriding.
+
+Here are some of the uses of interfaces in Java:
+
+* **To define a common behavior for different types of objects:** Interfaces can be used to define a common
+ behavior for different types of objects. This allows objects of different types to be used in a consistent
+  way. For example, the `Comparable` interface defines a common behavior for objects that can be compared 
+  to each other.
+  
+* **To achieve polymorphism:** Interfaces can be used to achieve polymorphism. This is because interfaces 
+can be implemented by different classes, and each class can implement the interface in a different way. 
+For example, the `Runnable` interface can be implemented by different classes, such as `Thread` and `Timer`.
+
+* **To improve code readability and maintainability:** Interfaces can improve code readability and 
+maintainability by hiding the implementation details of an object from the user. This makes code easier 
+to understand and change.
+
+* **To improve code security:** Interfaces can improve code security by hiding sensitive data from 
+unauthorized users. This is because the data cannot be accessed directly, and can only be accessed through
+ the methods of the interface.
+
+* **To achieve loose coupling:** Interfaces can be used to achieve loose coupling between different parts
+ of a program. This means that the different parts of the program can be changed independently of each other,
+  as long as they implement the same interface.

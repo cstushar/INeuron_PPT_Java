@@ -1,0 +1,3 @@
+The throw and throws keywords are used to handle exceptions in Java.
+ The throw keyword is used to throw an exception, while the throws keyword is used to declare
+ that a method can throw an exception.

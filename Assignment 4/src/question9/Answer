@@ -1,0 +1,8 @@
+
+There are many benefits to using functional interfaces in Java 8:
+
+Conciseness: Functional interfaces are a concise way to implement the behavior of a method.
+Readability: Functional interfaces can make code more readable by making the code easier to understand.
+Maintainability: Functional interfaces can make code more maintainable by making the code easier to change.
+Performance: Functional interfaces can improve the performance of code by reducing the amount of code 
+that needs to be executed.

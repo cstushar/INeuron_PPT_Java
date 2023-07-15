@@ -1,0 +1,28 @@
+
+Encapsulation is one of the four pillars of object-oriented programming (OOP).
+It is the process of binding data and corresponding methods (behavior) together into a single unit. 
+This allows for data to be hidden from the outside world, and only accessible through the methods of the class.
+
+There are many benefits to encapsulation in Java, including:
+
+* **Data hiding:** 
+Encapsulation allows for data to be hidden from the outside world. 
+This means that the data cannot be accessed directly, and can only be accessed through the methods of the class.
+This helps to protect the data from being modified or accessed by unauthorized users.
+
+* **Data abstraction:** 
+Encapsulation allows for data to be abstracted from the user. 
+This means that the user does not need to know how the data is stored or implemented. 
+The user only needs to know about the methods that are available to access the data. 
+This makes the code easier to understand and maintain.
+
+* **Increased flexibility:** 
+Encapsulation can make code more flexible by allowing the data to be changed without 
+affecting the code that uses it. This is because the code only interacts with the methods of the class, 
+and not with the data itself.
+
+* **Improved security:** 
+Encapsulation can help to improve security by hiding sensitive data from unauthorized users. 
+This is because the data cannot be accessed directly, and can only be accessed through the methods of the class.
+
+

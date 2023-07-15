@@ -1,0 +1,14 @@
+
+In Java, a final class is a class that cannot be subclassed. 
+This means that no other class can inherit from a final class.
+
+There are two reasons why you might want to use a final class:
+
+To prevent subclassing: 
+If you want to prevent other classes from inheriting from your class, 
+you can make your class final. This can be useful if you want to ensure that the behavior of 
+your class is not changed by other classes.
+
+To improve performance: 
+Final classes can sometimes improve performance because the Java 
+compiler can optimize the code for final classes.

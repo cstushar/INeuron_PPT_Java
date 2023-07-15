@@ -1,0 +1,23 @@
+
+Java is not a 100% object-oriented programming language because it supports primitive data types. 
+Primitive data types are not objects, and they cannot be inherited. 
+This means that Java does not fully adhere to the four pillars of object-oriented programming:
+
+* **Abstraction:** Abstraction is the process of hiding the implementation details of an object from the user. 
+This allows the user to focus on the behavior of the object, without having to worry about how the object is 
+implemented.
+* **Encapsulation:** Encapsulation is the process of binding data and corresponding methods (behavior) 
+together into a single unit. This allows for data to be hidden from the outside world, and 
+only accessible through the methods of the class.
+* **Inheritance:** Inheritance is the process of one class inheriting the properties and methods of 
+another class. This allows for code reuse and makes it easier to create complex applications.
+* **Polymorphism:** Polymorphism is the ability of an object to take on different forms. 
+This can be achieved through method overloading or method overriding.
+
+Because Java supports primitive data types, it does not fully adhere to the principle of abstraction. 
+This is because the user must know about the implementation details of primitive data types in order to use them.
+
+However, Java is still a very object-oriented programming language. It supports all of the other 
+three pillars of object-oriented programming, and it uses objects extensively in its syntax and semantics. 
+As a result, Java is considered to be a _mostly_ object-oriented programming language.
+

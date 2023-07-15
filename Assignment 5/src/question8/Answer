@@ -1,0 +1,19 @@
+A thread is a lightweight process that can run concurrently with other threads. 
+Each thread has its own stack, registers, and program counter.
+
+In Java, threads are implemented using the Thread class. The Thread class 
+provides a number of methods for controlling the execution of a thread,
+ such as start(), sleep(), and join().
+ 
+ class MyThread extends Thread {
+
+  public void run() {
+    System.out.println("Hello, world!");
+  }
+
+  public static void main(String[] args) {
+    Thread thread = new MyThread();
+    thread.start();
+  }
+}
+ 

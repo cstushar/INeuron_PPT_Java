@@ -1,0 +1,34 @@
+Yes, you can pass lambda expressions to a method. This is called **method reference**.
+Method references are a way to pass the functionality of a method to another method.
+
+Here is an example of how to pass a lambda expression to a method:
+
+```java
+public class MethodReferenceExample {
+
+  public static void main(String[] args) {
+    // Create a lambda expression that takes a string as input and prints the string to the console.
+    StringPrinter stringPrinter = (str) -> System.out.println(str);
+
+    // Pass the lambda expression to the printString method.
+    printString(stringPrinter);
+  }
+
+  public static void printString(StringPrinter printer) {
+    printer.print("Hello, world!");
+  }
+}
+
+interface StringPrinter {
+  void print(String str);
+}
+```
+In this example, the printString() method takes a StringPrinter interface as input. 
+The StringPrinter interface has a single method, print(). The print() method takes 
+a string as input and prints the string to the console.
+
+The main() method creates a lambda expression that takes a string as input and 
+prints the string to the console. The lambda expression is passed to the printString()
+ method. The printString() method calls the print() method on the lambda expression, 
+ which prints the string "Hello, world!" to the console.
+ 

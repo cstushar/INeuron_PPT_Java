@@ -1,0 +1,22 @@
+
+Abstraction is one of the four pillars of object-oriented programming (OOP). 
+It is the process of hiding the implementation details of an object from the user. 
+This allows the user to focus on the behavior of the object, without having to worry about how the 
+object is implemented.
+
+There are many advantages to abstraction in Java, including:
+
+* **Increased code readability and maintainability:** Abstraction makes code easier to 
+read and understand because the user does not need to know about the implementation details
+ of the object. This can make code more maintainable because changes to the implementation 
+ of the object do not need to be reflected in the code that uses the object.
+ 
+* **Improved code security:** Abstraction can help to improve security by hiding sensitive 
+data from unauthorized users. This is because the data cannot be accessed directly, and can 
+only be accessed through the methods of the class.
+
+* **Reusability of code:** Abstraction can help to improve code reuse by allowing objects to be 
+defined in a way that is independent of their implementation. This means that objects can be reused
+ in different contexts without having to change the code that uses the objects.
+
+

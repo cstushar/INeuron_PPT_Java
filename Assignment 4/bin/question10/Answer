@@ -1,0 +1,8 @@
+
+It is not mandatory for lambda expression to have parameters. 
+
+Java
+() -> System.out.println("Hello, world!");
+
+
+This lambda expression takes no input and prints the string "Hello, world!" to the console. 
